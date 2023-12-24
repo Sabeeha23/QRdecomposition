@@ -49,11 +49,12 @@ def QR_Decomposition(A):
     print(R)
 a = np.array(eval(input()))
 QR_Decomposition(a)
+
 ```
 
 ## Output
 ```
-![image](https://github.com/Sabeeha23/QRdecomposition/assets/150231876/dfea59b0-3060-4c2b-bcc8-ed699ce38376)
+![Alt text](<Screenshot 2023-12-01 211602-1.png>)
 ```
 
 ## Result
