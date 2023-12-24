@@ -44,7 +44,7 @@ def QR_Decomposition(A):
     R = np.zeros((n,m))
     for i in range(n):
         for j in range(i,m):
-            R[i,j]=A[:,j] @ Q[:,i]
+            R[i,j]=A[:,j] @ Q[:,i]        
     print(Q)
     print(R)
 a = np.array(eval(input()))
